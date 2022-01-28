@@ -1,0 +1,39 @@
+PROGRAM:-
+num1 = int(input(" Enter the First Value Number 1: "))
+num2 = int(input(" Enter the Second Value Number 2: "))
+
+# Add Two Numbers
+add = num1 + num2
+print(add)
+
+# Sub Two Numbers
+sub = num1 - num2
+print(sub)
+
+# Multiply Two Numbers
+multi = num1 * num2
+print(multi )
+
+# Divide Two Numbers
+div = num1 / num2
+print(div)
+
+# Modulus Two Numbers
+mod = num1 % num2
+print(mod)
+
+# Exponent Two Numbers
+expo = num1 ** num2
+print(expo)
+
+OUTPUT:
+
+ Enter the First Value Number 1: 21
+ Enter the Second Value Number 2: 32
+53
+-11
+672
+0.65625
+21
+2046526777500669368329342638102622164679041
+
