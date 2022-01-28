@@ -1,0 +1,48 @@
+INPUT  
+
+a = 84    
+print(a)
+print(type(a))
+a = 103.8 
+print(a)
+print(type(a))
+a = 11j        
+print(a)
+print(type(a))
+a = "java" 
+print(a)
+print(type(a))
+a = ["varvade", "RCPIT", "data science"]      
+print(a)
+print(type(a))
+a = ("java", "from", "data science")       
+print(type(a))
+a = {"name" : "raja", "age" : 20}  
+print(a)
+print(type(a))
+a = True 
+print(a)
+print(type(a))
+a = {"dl", "java", "ml"}  
+print(a)
+print(type(a))
+
+OUTPUT
+
+84
+<class 'int'>
+103.8
+<class 'float'>
+11j
+<class 'complex'>
+java
+<class 'str'>
+['varvade', 'RCPIT', 'data science']
+<class 'list'>
+<class 'tuple'>
+{'name': 'raja', 'age': 20}
+<class 'dict'>
+True
+<class 'bool'>
+{'ml', 'dl', 'java'}
+<class 'set'>
