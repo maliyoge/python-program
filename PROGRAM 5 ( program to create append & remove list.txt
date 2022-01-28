@@ -1,0 +1,19 @@
+PROGRAM :
+
+city =['dhule','pune','mumbai','jalgaon','nashik']
+village =['rami','nimgul','devi','vikhran','balsane']
+print("city are :",city)
+print("village are :",village)
+names=city+village
+print("names are :",names)
+village.remove("devi")
+print("updated village  are :",village) 
+
+
+INPUT :
+
+city are : ['dhule', 'pune', 'mumbai', 'jalgaon', 'nashik']
+village are : ['rami', 'nimgul', 'devi', 'vikhran', 'balsane']
+names are : ['dhule', 'pune', 'mumbai', 'jalgaon', 'nashik', 'rami', 'nimgul', 'devi', 'vikhran', 'balsane']
+updated village  are : ['rami', 'nimgul', 'vikhran', 'balsane']
+
