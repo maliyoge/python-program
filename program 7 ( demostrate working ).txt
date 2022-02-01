@@ -1,0 +1,32 @@
+PROGRAM:-
+
+PROGRAM:-
+T = ("computer", "electrical", "mechanical","data science","civil"," E&TC")
+print("\n Created tuple is :",T)
+print("\n Second branch is :",T[1])
+print("\n From 3-6 branch are :",T[3:6])
+print("\n List of all items in Tuple :")
+for x in T:
+  print(x)
+if "computer" in T:
+  print("\n Yes, 'computer' is in the branch tuple")
+print("\n Length of Tuple is :",len(T))
+ 
+OUTPUT:-
+
+ Created tuple is : ('computer', 'electrical', 'mechanical', 'data science', 'civil', 'E&TC')
+
+ Second branch is : electrical
+
+ From 3-6 branch are : ('data science', 'civil', 'E&TC')
+
+ List of all items in Tuple :
+computer
+electrical
+mechanical
+data science 
+civil
+E&TC
+ Yes, 'computer' is in the branch tuple
+
+ Length of Tuple is : 6
