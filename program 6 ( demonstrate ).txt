@@ -1,0 +1,69 @@
+dict1 = {'StdNo':'443','StuName': 'amol', 'StuAge': 20, 'StuCity': 'devi'}
+print("\n Dictionary is :",dict1)
+ 
+print("\n Student Name is :",dict1['StuName'])
+print("\n Student City is :",dict1['StuCity'])
+
+program :
+
+print("\n All Keys in Dictionary ")
+for x in dict1:
+    print(x)
+
+print("\n All Values in Dictionary ")
+for x in dict1:
+    print(dict1[x])
+
+dict1["Phno"]=9347893979
+
+print("\n Upadated Dictionary is :",dict1)
+
+dict1["StuName"]="vaishnavi"
+
+print("\n Upadated Dictionary is :",dict1)
+
+dict1.pop("StuAge");
+
+print("\n Upadated Dictionary is :",dict1)
+
+print("Length of Dictionary is :",len(dict1))
+
+dict2=dict1.copy()
+
+print("\n New Dictionary is :",dict2)
+
+dict1.clear()
+print("\n Upadated Dictionary is :",dict1)
+
+output :
+
+
+ Dictionary is : {'StdNo': '443', 'StuName': 'amol', 'StuAge': 20, 'StuCity': 'devi'}
+
+ Student Name is : amol
+
+ Student City is : devi
+
+ All Keys in Dictionary 
+StdNo
+StuName
+StuAge
+StuCity
+
+ All Values in Dictionary 
+443
+amol
+20
+devi
+
+ Upadated Dictionary is : {'StdNo': '443', 'StuName': 'amol', 'StuAge': 20, 'StuCity': 'devi', 'Phno': 9347893979}
+
+ Upadated Dictionary is : {'StdNo': '443', 'StuName': 'vaishnavi', 'StuAge': 20, 'StuCity': 'devi', 'Phno': 9347893979}
+
+ Upadated Dictionary is : {'StdNo': '443', 'StuName': 'vaishnavi', 'StuCity': 'devi', 'Phno': 9347893979}
+Length of Dictionary is : 4
+
+ New Dictionary is : {'StdNo': '443', 'StuName': 'vaishnavi', 'StuCity': 'devi', 'Phno': 9347893979}
+
+ Upadated Dictionary is : {}
+
