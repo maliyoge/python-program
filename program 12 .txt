@@ -1,0 +1,11 @@
+PROGRAM ;
+
+df['Global_active_power']=df['Global_active_power'].apply(lambda x:float(x)) df['Global_reactive_power']=df['Global_reactive_power'].apply(lambda x:float(x)) df['Voltage']=df['Voltage'].apply(lambda x:float(x))
+df["date_time"]=pd.to_datetime(df['Date'] + ' ' + df['Time'])
+times = pd.DatetimeIndex(df.date_time) grouped = df.groupby([times.year]) grouped.head() grouped.count()
+
+OUT PUT ;
+
+Date Time Global_active_power Global_reactive_power \ date_time 2006 21992 21992 21992 21992 2007 521669 521669 521669 521669 2008 526905 526905 526905 526905 2009 521320 521320 521320 521320 2010 457394 457394 457394 457394 Voltage Global_intensity Sub_metering_1 Sub_metering_2 \ date_time 2006 21992 21992 21992 21992 2007 521669 521669 521669 521669 2008 526905 526905 526905 526905 2009 521320 521320 521320 521320 2010 457394 457394 457394 457394 Sub_metering_3 date_time date_time 2006 21992 21992 2007 521669 521669 2008 526905 526905 2009 521320 521320 2010 457394 457394
+Program
+times =
