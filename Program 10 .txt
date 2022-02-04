@@ -1,0 +1,15 @@
+Program
+
+import numpy as np
+abcd= np.array([65, 43, 24, 92, 96, 37, 20])
+print("**Sorting Numpy Array in Ascending Order**")
+print("Original Array = ", abcd
+
+abcd.sort()
+print("sorted Array   = ", abcd)
+
+
+Output
+**Sorting Numpy Array in Ascending Order**
+Original Array =  [65 43 24 92  96 37 20]
+sorted Array   =  [ 96 65 92 37 43 20 24]
