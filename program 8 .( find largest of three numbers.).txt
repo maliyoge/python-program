@@ -1,0 +1,24 @@
+PROGRAM:-
+
+A1 = float(input("Enter first number: "))
+A2 = float(input("Enter second number: "))
+A3 = float(input("Enter third number: "))
+ 
+if (A1 > A2) and (A1 > A3):
+   largest = A1
+elif (A2 > A1) and (A2 > A3):
+   largest = A2
+else:
+   largest = A3
+ 
+print("The largest number is",largest)
+print("A1=A2=A3 are same")
+
+
+OUTPUT:-
+
+Enter first number: 34
+Enter second number: 765
+Enter third number: 89
+The largest number is 765.0
+A1=A2=A3 are same
